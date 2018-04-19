@@ -4,7 +4,7 @@ Configuration ScheduleWinUpdateInstallDSC
 
     Node localhost
     {
-
+    
         xWindowsUpdateAgent MuSecurityImportant
         {
             
@@ -15,9 +15,7 @@ Configuration ScheduleWinUpdateInstallDSC
         Notifications    = 'ScheduledInstallation'
 
         }
-
     }
-
 }
 
 ScheduleWinUpdateInstallDSC
